@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<style>
+body{
+background-color:grey;
+margin-top: 100px;
+}
+img{
+  border:20px solid white ;
+  width:250px;
+  box-shadow: 0 0 50px green;
+}
+p{
+  text-align:center;
+  height: 60px;
+  margin:0px;
+}
+#pic {
+  transform: rotate(25deg)
+   scale(1.5) translate(-50px);
+}
+#pic2{
+  transform: rotate(90deg);
+}
+.p1{
+
+  transform: rotate(180deg);
+}
+img:hover{
+  border-color: red;
+  transform:scale(2)
+  rotate(3600deg) !important;
+  transition: 2.5s;
+}
+</style>
+</head>
+<body>
+
+  <p>
+    <img id="pic" src="albom/images/f1.jpg" alt="">
+    <img id="pic2" src="albom/images/f2.jpg" alt="">
+  </p>
+  <p>
+    <img class="p1" src="albom/images/f3.jpg" alt="">
+
+
+  </p>
+  <p>
+    <img class="p1" src="albom/images/f4.jpg" alt="">
+    <img class="p1" src="albom/images/f5.jpg" alt="">
+  </p>
+
+</body>
+</html>
