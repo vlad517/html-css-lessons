@@ -29,6 +29,7 @@ body{
   float:left;
   margin-top: 30px;
   margin-left: 20px;
+  animation: wink 1s infinite;
 
 }
 .eyes:nth-child(2){
@@ -46,6 +47,17 @@ body{
   margin-top: 2px;
   float: left;
   border-bottom: 5px solid red;
+
+}
+@keyframes wink{
+  from{
+    transform: scaleY(1.0);
+  }
+
+    to{transform: scaley(0.1);}
+
+
+
 
 }
 
