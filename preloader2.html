@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  body{
+
+
+    background-color:grey;
+  }
+  #preloader{
+
+    width:100px;
+    height: 100px;
+    /*background-color: aqua;*/
+    animation: rot 10s infinite linear;
+  }
+
+#preloader div{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  float: left;
+  border: 1.5px solid grey;
+  animation:flash 1s infinite linear;
+
+
+}
+@keyframes flash{
+  from {
+    opacity: 1
+  }
+  to {
+    (opacity: 0}
+
+}
+
+#preloader div:nth-child(4n+1){
+
+  animation:flash 3s infinite linear;
+}
+#preloader div:not(:nth-child(4n+1)){
+  animation:flash 5s infinite linear;
+}
+
+@keyframes rot{
+
+  from {
+    transform:rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+</style>
+
+
+</head>
+
+
+
+
+<body>
+  <div id="preloader">
+
+
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+
+  </div>
+
+</body>
+</html>
