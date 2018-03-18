@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>preloader4</title>
+  <style>
+  body{
+
+    background-color: teal;
+  }
+  #traect{
+    width: 440px;
+    height: 140px;
+    margin: 350px;
+
+
+  }
+  #ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+    margin: 2px;
+
+
+
+  }
+  #box{
+    border: 5px solid white;
+
+    width: 400px;
+    height: 100px;
+    background-color: olive;
+    border-radius: 10px;
+  }
+#box div{
+  background-color: grey;
+  height: 100px;
+  width:10px;
+  float: left;
+  animation: bar 10s infinite linear,
+  col 10s infinite linear;
+  border-radius: 10px;
+    border: 1px solid white;
+
+
+
+}
+@keyframes bar {
+  from{
+    width:10px;
+  }
+  to{
+    width: 400px;
+  }
+}
+
+
+@keyframes col {
+  from{
+    background-color: aqua;
+  }
+
+  to{
+    background-color: white;
+  }
+}
+#ball{
+
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+
+}
+  </style>
+
+
+
+
+</head>
+<body>
+<div id="traect">
+  <div id="ball">
+
+
+  </div>
+
+  <div id="box">
+    <div>
+
+
+
+    </div>
+
+
+  </div>
+  </div>
+
+</body>
+</html>
