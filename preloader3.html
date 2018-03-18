@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>preloader3</title>
+  <style>
+
+
+  body{
+    background-color:grey;
+  }
+
+
+  #preloader{
+    width:100px;
+    height: 100px;
+    /* background-color: aqua; */
+    /* animation:rot 10s infinite linear; */
+    animation: rot 5s infinite linear;
+  }
+#preloader div{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  float: left;
+  border: 1.5px solid grey;
+
+animation: rot 6s infinite linear,
+  flash 1s infinite linear,
+  colo 5s infinite linear,
+  rad 5s infinite linear;
+}
+@keyframes flash{
+  from {
+    opacity: 1
+  }
+  to {
+    opacity: 0}
+}
+#preloader div:nth-child(4n+1){
+  animation:flash 3s infinite linear,
+  rot 5sn infinite;
+}
+#preloader div:not(:nth-child(4n+1)){
+  animation:flash 5s infinite linear,
+  rot 7s infinite linear;
+}
+@keyframes rot{
+  from {
+    transform:rotate(0deg) ;
+  }
+  to{
+    transform: rotate3d(5,10,1,-360deg) ;  }
+}
+
+@keyframes colo {
+  from{
+    background-color: green;
+  }
+  to{
+    background-color: blue;
+  }
+
+}
+@keyframes rad {
+  from{
+    border-radius: 0;
+
+  }
+  to{
+    border-radius: 50px
+  }
+
+}
+
+
+
+
+</style>
+
+
+</head>
+
+
+
+
+<body>
+  <div id="preloader">
+
+
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+
+  </div>
+
+</body>
+</html>
