@@ -1,0 +1,62 @@
+body{
+
+  background-color:black;
+}
+#preloader{
+
+  width: 200px;
+  height: 200px;
+  /* background-color: teal; */
+}
+
+#preloader>.big{
+  width: 160px;
+  height: 160px;
+  border: 5px solid #003300;
+
+  transform: translateX(15px) translateY(15px);
+  border-left-color:black;
+  border-right-color: black;
+  border-radius: 100%;
+  animation: big 5s infinite  linear;
+}
+#preloader .small{
+  width: 90px;
+  height: 90px;
+  /* background-color: teal; */
+  border: 5px solid #00ff00;
+  transform: translateX(12.5px) translateY(12.5px);
+  border-radius: 100%;
+  border-left-color:black;
+  border-right-color: black;
+
+}
+#preloader>.big>.middle{
+  border: 5px solid #008000;
+  width: 125px;
+  height: 125px;
+  transform: translateX(12.5px)
+  translateY(12.5px);
+  border-radius: 100%;
+  border-bottom-color: black;
+  border-top-color: black;
+  animation: middle 2s infinite  linear;
+
+}
+
+@keyframes big {
+  from{
+    transform: rotate(0);}
+    to{
+      transform: rotate(360deg);
+    }
+}
+@keyframes middle {
+  from{
+    transform: translateX(12.5px) translateY(12.5px) rotate(0);
+  }
+  to{
+    transform:translateX(12.5px) translateY(12.5px) rotate(-360deg);
+    }
+
+}
