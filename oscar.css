@@ -1,0 +1,63 @@
+#oscar div,#oscar figcaption , #oscar{
+  width: 260px;
+  height: 195px;
+
+/* border: 1px solid red; */
+width:260px;
+height: 195px;
+
+}
+#oscar figcaption{
+
+  transform: translateY(-195px);
+  background:linear-gradient(rgba(50,50,70,0.75), rgba(50,70,50,0.75 ), rgba(100,50,50,0.75));
+  /* background:linear-gradient(black,white,black); */
+}
+#oscar h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  transform: translateY(85px);
+  transition:0.4s;
+
+}
+body{
+  background-color: darkgrey;
+  font-family:arial;
+}
+#oscar span{
+  font-weight: 100;
+}
+#oscar:hover figcaption{
+  background:linear-gradient(rgba(50,50,70,0.5), rgba(50,70,50,0.5 ), rgba(100,50,50,0.5));
+
+
+
+}
+#oscar:hover h2{
+transform: translateY(55px);
+
+}
+#oscar p{
+  border: 2px solid white;
+  width:220px;
+  height: 150px;
+  transform: translateX(18px) translateY(-15px) scale(0);
+  transition:0.5s;
+}
+#oscar:hover p{
+  transform: translateX(18px) translateY(-15px) scale(1);
+}
+#oscar img{
+
+  transform: scale(1.1);
+  transition:0.5s;
+}
+#oscar:hover img{
+  transform: scale(1);
+}
+
+#oscar{
+  overflow: hidden;
+}
