@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<style media="screen">
+
+
+
+  #statusbar{
+
+    width: 400px;
+    height: 20px;
+    background-color: aqua;
+    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+}
+
+#left div{
+
+  width: 5px;
+  height: 6px;
+  float: left;
+  border: 1px solid green;
+  transform: translateX(15px);
+  margin-top: 5px;
+  padding: 1px;
+
+
+
+
+  /* transform:translateY(13px)} */
+/*
+#left #two{
+  width: 5px;
+  height: 8px;
+  background-color: black;
+  transform: translateX(10px);
+}
+
+
+#left #three{
+  width: 5px;
+  height: 10px;
+  background-color: black;
+  transform: translateX(20px); */
+}
+#left{
+
+  width: 50px;
+  height: 15px;
+  float: left;
+  border: 1px solid red;
+}
+
+#right div{
+  width: 100px;
+  height: 18px;
+
+  border: 1px solid aqua;
+  float: right;
+}
+p{
+  font-size: 15px;
+  transform: translateY(-13px);
+  text-align: right;
+  font-style: italic;
+
+}
+h6{
+  transform: translateY(-30px);
+  text-align: center;
+  font-size: 14px
+}
+#right #box1{
+
+  width: 8px;
+  height: 6px;
+  background-color: black;
+  float: left;
+
+
+  transform: translateX(38px);
+  padding-top: 10px;
+
+
+}
+#right #box2{
+
+  width: 40px;
+  height: 14px;
+  padding: 1px;
+  /* background-color: black; */
+  border:1px solid black;
+  float:right;
+  transform: translateY(3px);
+transform: translateX(-10px);
+}
+#box2>div{
+
+  width: 5px;
+  height: 12px;
+  background-color: black;
+  margin: 2px;
+  transform: translateY(-2px);
+}
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+  <div id="statusbar">
+        <div id="left">
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    </div>
+    <div id="right">
+      <div><h6>17:00</h6></div>
+      <div>
+         <div id="box1"></div>
+          <div id="box2">
+            <div id="a"></div>
+            <div id="b"></div>
+            <div id="c"></div>
+          </div>
+      </div>
+      <div><p>75%</p></div>
+
+    </div>
+  </div>
+
+</body>
+</html>
