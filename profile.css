@@ -1,0 +1,51 @@
+body{
+
+    background-color: #333
+}
+
+#profile{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: aquamarine;
+    transform: translateY(0);
+
+}
+
+.info{
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid  blue;
+    transform: translateY(300px);
+    background-color: white;
+    text-align: center;
+    color: brown;
+    padding-top: 20px;
+}
+
+.photo{
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    background-image: url(https://tshirtfury.com/wp-content/uploads/2017/10/Drop-Shipping-Men-Casual-Shoes-Big-Size-39-46-Canvas-Shoes-for-Men-Driving-Shoes-Soft-600x600.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+
+
+}
+#profile:hover .photo{
+    opacity: 1;
+    transition: 1s;
+
+}
+.info:hover{
+
+    transform: none;
+    transition: 2s;
+}
