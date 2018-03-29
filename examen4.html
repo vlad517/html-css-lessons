@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>examen4</title>
+  <style media="screen">
+    body{
+
+      background-color: grey;
+    }
+    #k1 {
+    width: 300px;
+    height: 100px;
+    background-color: green;
+
+
+    }
+    #k2{
+      width: 300px;
+      height: 100px;
+      background-color: blue;
+    }
+    #k2>div:first-child{
+      width: 200px;
+      height: 80px;
+      background-color: white;
+      position: absolute;
+      left: 100px;
+      top:215px;
+      opacity:0.5;
+      /* border: 1px solid black; */
+      animation: mov 5s infinite linear ;
+    }
+    #k2>div:last-child{
+      width: 200px;
+      height: 80px;
+      background-color: black;
+      position: absolute;
+      left: 100px;
+      top:215px;
+    z-index: -1;
+    }
+@keyframes mov{
+  from{
+    width:200px;
+  }
+  to{
+    width: 0px;
+  }
+
+}
+
+ </style>
+</head>
+<body>
+
+  <!-- <div id="k1"></div> -->
+  <div id="k2">
+    <div></div>
+    <div></div>
+  </div>
+
+</body>
+</html>
