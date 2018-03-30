@@ -1,0 +1,33 @@
+#paper .slice{
+
+width: 200px;
+height: 600px;
+border: 1px solid black;
+position: absolute;
+background-image:url(images/cat2.jpeg);
+
+
+}
+#paper .photo{
+width: 800px;
+height: 600px;
+border: 1px solid green;
+position: relative;
+}
+#paper .widgets{
+
+  display: none;
+
+}
+#paper .slice:nth-child(2){
+  left:200px;
+  background-position: -200px 0px;
+}
+#paper .slice:nth-child(3){
+  left:400px;
+  background-position: 250px 0px;
+}
+#paper .slice:nth-child(4){
+  left:600px;
+  background-position: -200px 0px;
+}
