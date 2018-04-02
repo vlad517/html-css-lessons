@@ -4,9 +4,14 @@ width: 200px;
 height: 600px;
 border: 1px solid black;
 position: absolute;
-background-image:url(images/cat2.jpeg);
+background-image:url(images/gip.webp);
+top: 0;
 
 
+
+}
+body{
+  background-color: url(images/cola.png);
 }
 #paper .photo{
 width: 800px;
@@ -15,8 +20,17 @@ border: 1px solid green;
 position: relative;
 }
 #paper .widgets{
+  position: absolute;
+  right:40px;
+  top:40px;
 
-  display: none;
+  /*display: none;*/
+
+}
+#paper .widgets a:last-child{
+right:0px;
+bottom:-40px;
+height: 560px;
 
 }
 #paper .slice:nth-child(2){
@@ -30,4 +44,34 @@ position: relative;
 #paper .slice:nth-child(4){
   left:600px;
   background-position: -200px 0px;
+}
+/*effects  below*/
+
+#paper:hover .slice:nth-child(2){
+  left:200px;
+  background-position: -200px 0px;
+  transform: rotatey(45deg) scale(0.93);
+  left: 186px;
+  transition: 1s;
+
+}
+#paper{
+  perspective: 1000px;
+  position: absolute;
+  width: 800px;
+  height: 600px;
+}
+#paper:hover .slice:nth-child(3){
+  left:400px;
+  background-position: 250px 0px;
+  transform: rotatey(-45deg) scale(0.93);
+  left: 320px;
+  transition: 1s;
+}
+#paper:hover .slice:nth-child(4){
+  left:600px;
+  background-position: -200px 0px;
+  transform: rotatey(45deg) scale(0.93);
+  left: 454px;
+  transition: 1s;
 }
