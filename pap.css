@@ -4,7 +4,7 @@ width: 200px;
 height: 600px;
 border: 1px solid black;
 position: absolute;
-background-image:url(images/gip.webp);
+background-image:url(img/ct1.jpg);
 top: 0;
 
 
@@ -21,8 +21,8 @@ position: relative;
 }
 #paper .widgets{
   position: absolute;
-  right:40px;
-  top:40px;
+  right:20px;
+  top:30px;
 
   /*display: none;*/
 
@@ -39,11 +39,11 @@ height: 560px;
 }
 #paper .slice:nth-child(3){
   left:400px;
-  background-position: 250px 0px;
+  background-position: 400px 0px;
 }
 #paper .slice:nth-child(4){
   left:600px;
-  background-position: -200px 0px;
+  background-position: 200px 0px;
 }
 /*effects  below*/
 
