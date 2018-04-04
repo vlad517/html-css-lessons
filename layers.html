@@ -10,11 +10,22 @@
     margin: 0px;
   }
   #fan .slice{
+    width: 800px;
+    height: 70px;
 
     color: grey;
-    background-color: aqua;
+    background-color: darkgrey;
     position: absolute;
     padding: 30px;
+    border-radius: 50% 30px 30px 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -430px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    transform-origin: 50px 65px ;
+    transform: rotate(0);
+    transition: 2s;
 
   }
   #fan h2,#fan p{
@@ -22,8 +33,165 @@
     margin: 0px;
   }
 
+  #fan p{
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 15px;
+    /*color: aqua;*/
+    padding-top: 20px;
+  }
+  #fan h2{
+    font-size: 25px;
+    color: blue;
+    padding-left: 85px;
+    text-align: right;
 
 
+  }
+  #fan h2::before{
+    content: "\275D" ;
+    font-size: 20px;
+    padding-right:10px;
+  }
+
+  #fan h2::after{
+    content: "\275D" ;
+    font-size: 20px;
+    padding-left:10px;
+  }
+  #fan .slice::before{
+  content:"\25EF";
+  position: absolute;
+  font-size: 30px;
+  top: 45px;
+  left: 45px;
+
+}
+/*effects*/
+
+#fan .slice:nth-child(1){
+  /*transform: rotate(10deg);*/
+  background-color: #303030;
+
+}
+#fan .slice:nth-child(2){
+  /*transform: rotate(20deg);*/
+  background-color: #353535;
+
+}
+#fan .slice:nth-child(3){
+  /*transform: rotate(30deg);*/
+  background-color: #404040;
+
+}
+#fan .slice:nth-child(4){
+  /*transform: rotate(40deg);*/
+  background-color: #454545;
+
+}
+#fan .slice:nth-child(5){
+  /*transform: rotate(50deg);*/
+  background-color: #505050;
+
+}
+#fan .slice:nth-child(6){
+  /*transform: rotate(60deg);*/
+  background-color: #555555;
+
+}
+#fan .slice:nth-child(7){
+  /*transform: rotate(70deg);*/
+  background-color: #606060;
+
+}
+#fan .slice:nth-child(8){
+  /*transform: rotate(80deg);*/
+  background-color: #656565;
+
+}
+#fan .slice:nth-child(9){
+  /*transform: rotate(90deg);*/
+  background-color: #707070;
+
+}
+#fan .slice:nth-child(10){
+  /*transform: rotate(100deg);*/
+  background-color: #757575;
+
+}
+#fan .slice:nth-child(11){
+  /*transform: rotate(110deg);*/
+  background-color: #808080;
+
+}
+#fan .slice:nth-child(12){
+  /*transform: rotate(120deg);*/
+  background-color: #858585;
+
+}
+
+
+
+
+#fan:hover .slice:nth-child(1){
+  transform: rotate(-60deg);
+
+
+}
+#fan:hover  .slice:nth-child(2){
+  transform: rotate(-40deg);
+
+
+}
+#fan:hover  .slice:nth-child(3){
+  transform: rotate(-20deg);
+
+}
+#fan:hover  .slice:nth-child(4){
+  transform: rotate(0deg);
+
+}
+#fan:hover  .slice:nth-child(5){
+  transform: rotate(20deg);
+
+
+}
+#fan:hover  .slice:nth-child(6){
+  transform: rotate(40deg);
+
+
+}
+#fan:hover  .slice:nth-child(7){
+  transform: rotate(60deg);
+
+
+}
+#fan:hover  .slice:nth-child(8){
+  transform: rotate(80deg);
+
+
+}
+#fan:hover  .slice:nth-child(9){
+  transform: rotate(100deg);
+
+
+}
+#fan:hover  .slice:nth-child(10){
+  transform: rotate(120deg);
+
+
+}
+#fan:hover  .slice:nth-child(11){
+  transform: rotate(140deg);
+
+
+}
+#fan:hover  .slice:nth-child(12){
+  transform: rotate(160deg);
+
+
+}
 
 
 
