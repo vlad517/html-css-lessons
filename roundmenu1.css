@@ -1,0 +1,72 @@
+body{
+  background-color: blue;
+
+}
+nav li{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  position: absolute;
+  /*transform:skewX(45deg);*/
+  transform-origin: 0 0;
+  border: 1px solid black;
+  overflow: hidden;
+
+}
+
+nav li a{
+
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  display: block;
+background-color: darkgrey;
+position: absolute;
+top: -150px;
+left: -150px;
+/*opacity: 0.75;*/
+transform: skewX(-45deg);
+
+}
+nav{
+  position: relative;
+  top: 300px;
+  left: 300px;
+
+}
+li:nth-child(1){
+  transform:  rotate(0deg) skewX(45deg);
+
+}
+
+li:nth-child(2){
+  transform:  rotate(45deg) skewX(45deg);
+
+}
+li:nth-child(3){
+  transform:  rotate(90deg) skewX(45deg);
+
+}
+li:nth-child(4){
+  transform:  rotate(135deg) skewX(45deg);
+
+}
+li:nth-child(5){
+  transform:  rotate(180deg) skewX(45deg);
+
+}
+li:nth-child(6){
+  transform:  rotate(225deg) skewX(45deg);
+
+}
+li:nth-child(7){
+  transform:  rotate(270deg) skewX(45deg);
+
+}
+li:nth-child(8){
+  transform:  rotate(315deg) skewX(45deg);
+
+}
+a:hover{
+  background-color: green;
+}
