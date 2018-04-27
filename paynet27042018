@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Plateste facturi si</title>
+
+
+  <style media="screen">
+
+
+    body{background-color: grey;
+
+  }
+  nav{
+    background-color: #f2f2f2;
+    height:150px;
+    width: 100%
+    position: absolute;
+
+  }
+  nav div {
+
+    display: inline-block;
+    font-size: 30px;
+    padding:40px;
+
+  }
+  nav div:last-child{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+
+
+  }
+  nav div:nth-child(8){
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
+
+
+  }
+  nav div a{
+    text-decoration: none;
+  }
+  nav div:first-child{
+    margin-left: 100px;
+    /* position: absolute; */
+    /* top:50px; */
+    font-size: 50px;
+    font-style: oblique;
+
+  }
+  small{
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+
+  </style>
+</head>
+
+
+
+
+
+<body>
+  <nav>
+    <div><a href=""><small>Pay</small>net</a></div>
+    <div><a href="">benefits attached</a></div>
+    <div><a href="">Portofel</a></div>
+    <div><a href="">Loialitate</a></div>
+    <div><a href="">Afaceri</a></div>
+    <div><a href="">Noutati</a></div>
+    <div id=form>Ro</div>
+    <div><a href="">Inregistreaza-te</a></div>
+    <div><a href="">Log in</a></div>
+  </nav>
+
+
+
+
+
+</body>
+</html>
